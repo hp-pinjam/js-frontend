@@ -27,4 +27,4 @@ function responseData(result) {
     }
 }
 
-document.getElementById("buttonlogin").addEventListener("click",PostLogInAdmin)
+document.getElementById("adminbuttonlogin").addEventListener("click",PostLogInAdmin)
