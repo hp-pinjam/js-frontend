@@ -20,11 +20,11 @@ function responseData(result) {
     if (result.status === true) {
         setCookieWithExpireHour("token", result.token, 2);
         // Jika pesan adalah "Selamat Datang", arahkan ke halaman dashboard.
-        window.location.href = "hp.html"; // Gantilah "error.html" dengan halaman error yang sesuai.
+        window.location.href = "index.html"; // Gantilah "error.html" dengan halaman error yang sesuai.
     } else {
         
         window.location.href = "loginadmin.html";
     }
 }
 
-document.getElementById("adminbuttonlogin").addEventListener("click",PostLogInAdmin)
+document.getElementById("buttonlogin").addEventListener("click",PostLogInAdmin)
