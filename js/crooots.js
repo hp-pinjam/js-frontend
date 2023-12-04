@@ -7,7 +7,7 @@ function PostLogIn(){
     let tokenkey = "token";
     let tokenvalue = "57680f8af4ead19a4b200e10466a9f8be9abf928425835df41797523db0559c5c33338060ecbce4f4f3c607ce5053ca326b3bdb475a4522145e2ff8f92beb95f"; 
     let datainjson = {
-        "username": getValue("username"),
+        "email": getValue("email"),
         "password": getValue("password")
     }
 
