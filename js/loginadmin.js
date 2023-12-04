@@ -18,7 +18,7 @@ $(document).ready(function () {
       });
 
       // Redirect ke halaman dashboard
-      window.location.href = '../admin/index.html';
+      window.location.href = 'hp.html';
     } else {
       // Login gagal
       Swal.fire({
