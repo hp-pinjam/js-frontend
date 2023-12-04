@@ -23,7 +23,7 @@ function responseData(result) {
         window.location.href = "hp.html"; // Gantilah "error.html" dengan halaman error yang sesuai.
     } else {
         
-        window.location.href = "index.html";
+        window.location.href = "loginadmin.html";
     }
 }
 
